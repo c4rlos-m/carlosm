@@ -1,1 +1,17 @@
-node_modules
+# Ignorar node_modules en todos los subdirectorios
+**/node_modules/
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar entorno local
+.env
+.env.*
+
+# Ignorar salidas de build si aplica
+**/dist/
+**/build/
